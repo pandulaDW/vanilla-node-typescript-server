@@ -1,5 +1,6 @@
 {
   "watch": ["src"],
   "ext": "ts,json",
+  "ignore": ["nodemon.json"],
   "exec": "ts-node ./src/Launcher.ts"
 }
